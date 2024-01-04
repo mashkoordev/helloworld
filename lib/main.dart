@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home:Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.amberAccent,
-          title:const Text('WELCOME'),
+          backgroundColor: Colors.blueGrey,
+          title:const Text('hello world'),
         ),
         body:const Column(
           children: [
